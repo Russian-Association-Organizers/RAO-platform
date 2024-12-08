@@ -1,0 +1,43 @@
+/* Fonts */
+
+@import "global/fonts.scss";
+
+/* Global */
+
+@import "global/variables.scss";
+@import "global/normalize";
+@import "global/mixins.scss";
+// Сommon element styles
+@import "global/page.scss";
+@import "global/scroll.scss";
+@import "global/preloader.scss";
+// @import "global/pony-animation.scss";
+// Pixel Perfect
+// @import "global/pixel-perfect.scss";
+
+/* Blocks */
+
+//Header
+@import "blocks/header/header.scss";
+@import "blocks/header/header-logo.scss";
+@import "blocks/header/nav-toggle-button.scss";
+@import "blocks/header/navigation.scss";
+@import "blocks/header/navigation-list.scss";
+
+/* Individual styles */
+
+// index
+
+// Footer
+// @import "blocks/footer/footer.scss";
+// @import "blocks/footer/footer-partnership.scss";
+// @import "blocks/footer/footer-location-map.scss";
+// @import "blocks/footer/footer-wrapper.scss";
+// @import "blocks/footer/footer-text-logo.scss";
+// @import "blocks/footer/footer-social.scss";
+// @import "blocks/footer/footer-html-academy-copyright.scss";
+
+//@import "";
+//@import "blocks/";
+
+//<!DOCTYPE Liky>
