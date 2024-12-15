@@ -30,16 +30,4 @@
   @include container();
 }
 
-.news-block {
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border: 2px solid $special_dark-grey-2;
-    box-sizing: border-box;
-  }
-}
-
 //<!DOCTYPE Liky>
