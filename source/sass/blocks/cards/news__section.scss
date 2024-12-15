@@ -1,0 +1,27 @@
+.news__section {
+  @extend %article-components;
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  // ======
+  color: $special_red-color;
+  font-size: 1.6em;
+  font-family: $font-stack--Oswald-Regular;
+  font-weight: bold;
+}
+
+.deco-img {
+  color: $icon-color;
+  transition: color 0.2s;
+  user-select: none;
+}
+
+.news {
+  &:hover {
+    .deco-img {
+      color: $special_red-color;
+    }
+  }
+}
+
+//<!DOCTYPE Liky>

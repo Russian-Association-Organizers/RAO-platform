@@ -1,0 +1,41 @@
+.news-block__img {
+  display: block;
+  user-select: none;
+  transition: transform 0.2s, width 0.2s;
+
+  @media (max-width: $mobile-width) {
+    width: 280px;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 300px;
+  }
+
+  @media (min-width: $big-tablet-width) {
+    width: 280px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 240px;
+  }
+
+  @media (min-width: $average-desktop-width) {
+    width: 280px;
+  }
+
+  @media (min-width: $big-desktop-width) {
+    width: 320px;
+  }
+}
+
+.news {
+  &:hover {
+    .news-block__img {
+      width: 110%; // Как по мне - это излишек. 
+      // width: 90%; Или же вы имели ввиду такой вариант исполнения ? 
+      transform: rotate(4deg);
+    }
+  }
+}
+
+//<!DOCTYPE Liky>

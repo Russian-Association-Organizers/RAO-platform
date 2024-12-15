@@ -1,0 +1,7 @@
+.news__publication-time {
+  @extend %article-components;
+  color: lighten($black-color, 70%);
+  font-size: 1.1em;
+}
+
+//<!DOCTYPE Liky>

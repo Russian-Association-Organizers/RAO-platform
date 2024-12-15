@@ -1,0 +1,14 @@
+.news__content {
+  @extend %article-components;
+  font-family: $font-stack--Oswald-Regular;
+  font-size: 1.4em;
+  color: lighten($black-color, 50%);
+  margin-top: 0;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+//<!DOCTYPE Liky>

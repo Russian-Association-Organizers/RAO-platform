@@ -1,7 +1,10 @@
 /* Viewports */
 $mobile-width: 320px;
 $tablet-width: 768px;
+$big-tablet-width: 1040px;
 $desktop-width: 1200px;
+$average-desktop-width: 1400px;
+$big-desktop-width: 1800px;
 $desktop-width-only: 1199px;
 $mobile-width-only: 767px;
 /* Colors */
@@ -26,6 +29,8 @@ $black-color: #000000;
 $catalog-border-color: #ededed;
 $input-hover-color: #bababa;
 $icon-gray-color: #d3d3d3;
+$special_red-color: rgb(178, 84, 79);
+$icon-color: rgb(113, 113, 113);
 /* Fonts */
 $font-stack--Oswald-Regular:"Oswald Regular", "Arial", sans-serif;
 $font-stack--Oswald-Medium:"Oswald Medium", "Arial", sans-serif;

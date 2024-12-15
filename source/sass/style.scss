@@ -7,10 +7,12 @@
 @import "global/variables.scss";
 @import "global/normalize";
 @import "global/mixins.scss";
+@import "global/slider.scss";
 // Сommon element styles
 @import "global/page.scss";
 @import "global/scroll.scss";
 @import "global/preloader.scss";
+@import "global/seperator.scss";
 // @import "global/pony-animation.scss";
 // Pixel Perfect
 // @import "global/pixel-perfect.scss";
@@ -27,6 +29,15 @@
 /* Individual styles */
 
 // index
+
+//Cards
+@import "blocks/cards/news-block-wrapper.scss";
+  @import "blocks/cards/news.scss";
+    @import "blocks/cards/news-block__img.scss";
+    @import "blocks/cards/news__section.scss";
+    @import "blocks/cards/news__title.scss";
+    @import "blocks/cards/news__content.scss";
+    @import "blocks/cards/news__publication-time.scss";
 
 // Footer
 // @import "blocks/footer/footer.scss";

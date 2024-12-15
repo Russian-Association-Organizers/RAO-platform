@@ -1,0 +1,45 @@
+.wrapper {
+  @include container();
+  width: 80%;
+  margin-top: 25vh;
+  padding: 5em 0 0;
+  margin-bottom: 25vh;
+
+  @media (min-width: $big-tablet-width) {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 280px);
+    justify-content: space-between;
+    grid-row-gap: 4em;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(4, 240px);
+  }
+
+  @media (min-width: $average-desktop-width) {
+    grid-template-columns: repeat(4, 280px);
+  }
+
+  @media (min-width: $big-desktop-width) {
+    grid-template-columns: repeat(4, 320px);
+  }
+}
+
+.wrapper > .slick-list > .slick-track {
+  @include container();
+}
+
+.news-block {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid $special_dark-grey-2;
+    box-sizing: border-box;
+  }
+}
+
+//<!DOCTYPE Liky>

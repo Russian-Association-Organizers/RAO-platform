@@ -28,6 +28,11 @@
   text-transform: uppercase;
 }
 
+%article-components {
+  position: relative;
+  width: 100%;
+}
+
 //@include block-position--flex();
 //@include container();
 //@include hidden();
