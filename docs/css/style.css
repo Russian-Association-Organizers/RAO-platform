@@ -852,15 +852,6 @@ template {
   margin: 0 auto;
   box-sizing: border-box; }
 
-.news-block::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border: 2px solid #222222;
-  box-sizing: border-box; }
-
 .news {
   position: relative;
   bottom: 0;
