@@ -863,18 +863,20 @@ template {
   max-width: 1350px;
   box-sizing: content-box; }
   .quest-counter-main .progress {
-    position: absolute;
     display: flex;
     justify-content: center; }
   .quest-counter-main .progress_icon {
     position: relative;
-    max-width: 768px; }
+    max-width: 768px;
+    top: 150px; }
   .quest-counter-main .progress_percent {
-    position: relative;
+    position: absolute;
+    top: 20.3em;
     font-size: 1.65em;
     font-family: "Oswald Medium", "Arial", sans-serif; }
   .quest-counter-main .progress_relation {
-    position: relative;
+    position: absolute;
+    top: 22em;
     box-sizing: content-box;
     font-size: 1.65em;
     font-family: "Oswald Medium", "Arial", sans-serif; }
