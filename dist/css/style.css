@@ -535,7 +535,7 @@ template {
 
 .preloader__row {
   position: relative;
-  top: 50%;
+  top: 55%;
   left: 50%;
   width: 70px;
   height: 70px;
@@ -656,6 +656,9 @@ template {
     opacity: 0.6; }
   .main-header__logo:active {
     opacity: 0.3; }
+
+.header-logo-img-1 {
+  border-radius: 50px; }
 
 .main-header__logo-2 {
   position: relative;
@@ -818,6 +821,65 @@ template {
 @media (max-width: 767px) {
   .main-nav--closed .nav-list {
     display: none; } }
+
+.quest-counter-body {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center; }
+
+.quest-counter-header {
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1350px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 1em 0 1em; }
+  .quest-counter-header .name {
+    font-size: 2em;
+    color: orange;
+    font-family: "Oswald Regular", "Arial", sans-serif; }
+  .quest-counter-header .score-counter {
+    width: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background: orange; }
+  .quest-counter-header .score-counter_number {
+    font-size: 1.8em;
+    color: #ffffff; }
+
+.quest-counter-main {
+  max-width: 1350px;
+  box-sizing: content-box; }
+  .quest-counter-main .progress {
+    position: absolute;
+    display: flex;
+    justify-content: center; }
+  .quest-counter-main .progress_icon {
+    position: relative;
+    max-width: 768px; }
+  .quest-counter-main .progress_percent {
+    position: relative;
+    font-size: 1.65em;
+    font-family: "Oswald Medium", "Arial", sans-serif; }
+  .quest-counter-main .progress_relation {
+    position: relative;
+    box-sizing: content-box;
+    font-size: 1.65em;
+    font-family: "Oswald Medium", "Arial", sans-serif; }
+    .quest-counter-main .progress_relation hr {
+      margin: 0; }
 
 /* Individual styles */
 .wrapper {

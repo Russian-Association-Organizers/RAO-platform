@@ -1,0 +1,37 @@
+.quest-counter-main{
+	max-width: 1350px;
+	box-sizing: content-box;
+
+	.progress {
+		position: absolute;
+		display: flex;
+		justify-content: center;
+	}
+
+	.progress_icon {
+		position: relative;
+		max-width: 768px;
+		// top: 150px;
+	}
+
+	.progress_percent {
+		position: relative;
+		// position: absolute;
+		// top: 20.3em;
+		font-size: 1.65em;
+  	font-family: $font-stack--Oswald-Medium;
+	}
+
+	.progress_relation {
+		position: relative;
+		// position: absolute;
+		// top: 22em;
+		box-sizing: content-box;
+		font-size: 1.65em;
+  	font-family: $font-stack--Oswald-Medium;
+
+  	hr {
+  		margin: 0;
+  	}
+	}
+}

@@ -1,0 +1,42 @@
+.quest-counter-body {
+	width: 100%;
+	display: inline-flex;
+	flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quest-counter-header{
+	@include container();
+	max-width: 1350px;
+	display: inline-flex;
+	flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 1em 0 1em;
+
+  .name{
+  	font-size: 2em;
+  	color: orange;
+  	font-family: $font-stack--Oswald-Regular;
+  }
+
+  .score-counter {
+  	width: 8em;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-around;
+  	box-sizing: border-box;
+  	border: 2px solid orange;
+  	border-radius: 10px;
+  	background: orange;
+  }
+
+  .score-counter_number {
+  	font-size: 1.8em;
+  	color: $main-color;
+  	// margin-right: 0.2em;
+  }
+}
