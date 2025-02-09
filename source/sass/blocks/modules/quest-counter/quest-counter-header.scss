@@ -20,10 +20,34 @@
   box-sizing: border-box;
   padding: 0 1em 0 1em;
 
+  @media (min-width: 400px) {
+    padding: 0.5em 1em 0 1em;
+  }
+
+  @media (min-width: 450px) {
+    padding: 1em 1em 0 1em;
+  }
+
+  @media (min-width: 500px) {
+    padding: 1.5em 1em 0 1em;
+  }
+
   .user-name{
   	font-size: 2em;
   	color: orange;
   	font-family: $font-stack--Oswald-Regular;
+
+  	@media (min-width: 400px) {
+    	font-size: 2.4em;
+  	}
+
+  	@media (min-width: 450px) {
+    	font-size: 2.7em;
+  	}
+
+  	@media (min-width: 500px) {
+    	font-size: 3em;
+  	}
   }
 
   .logo {
@@ -44,6 +68,18 @@
   	border: 2px solid orange;
   	border-radius: 10px;
   	background: orange;
+
+  	@media (min-width: 400px) {
+    	font-size: 1em;
+  	}
+
+  	@media (min-width: 450px) {
+    	font-size: 1.3em;
+  	}
+
+  	@media (min-width: 500px) {
+    	font-size: 1.5em;
+  	}
   }
 
   .score-counter_number {

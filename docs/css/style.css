@@ -846,10 +846,28 @@ template {
   align-items: center;
   box-sizing: border-box;
   padding: 0 1em 0 1em; }
+  @media (min-width: 400px) {
+    .quest-counter-header {
+      padding: 0.5em 1em 0 1em; } }
+  @media (min-width: 450px) {
+    .quest-counter-header {
+      padding: 1em 1em 0 1em; } }
+  @media (min-width: 500px) {
+    .quest-counter-header {
+      padding: 1.5em 1em 0 1em; } }
   .quest-counter-header .user-name {
     font-size: 2em;
     color: orange;
     font-family: "Oswald Regular", "Arial", sans-serif; }
+    @media (min-width: 400px) {
+      .quest-counter-header .user-name {
+        font-size: 2.4em; } }
+    @media (min-width: 450px) {
+      .quest-counter-header .user-name {
+        font-size: 2.7em; } }
+    @media (min-width: 500px) {
+      .quest-counter-header .user-name {
+        font-size: 3em; } }
   .quest-counter-header .logo:hover {
     opacity: 0.8; }
   .quest-counter-header .logo:active {
@@ -863,6 +881,15 @@ template {
     border: 2px solid orange;
     border-radius: 10px;
     background: orange; }
+    @media (min-width: 400px) {
+      .quest-counter-header .score-counter {
+        font-size: 1em; } }
+    @media (min-width: 450px) {
+      .quest-counter-header .score-counter {
+        font-size: 1.3em; } }
+    @media (min-width: 500px) {
+      .quest-counter-header .score-counter {
+        font-size: 1.5em; } }
   .quest-counter-header .score-counter_number {
     font-size: 1.8em;
     color: #ffffff; }
@@ -915,7 +942,8 @@ template {
   display: flex;
   width: 100%;
   height: 5em;
-  background-color: orange; }
+  background-color: orange;
+  color: #222222; }
 
 .quest-footer_wrapper {
   min-width: 320px;
@@ -939,7 +967,8 @@ template {
   border-radius: 50%; }
 
 .quest-footer_summerbeat {
-  font-size: 2em; }
+  font-size: 2em;
+  color: white; }
 
 .user-id {
   font-size: 2em; }
