@@ -17,12 +17,9 @@
     <meta name="keywords" content=""
     />
     <!-- styles & Title -->
-    <link rel="preload" href="fonts/oswaldmedium.woff" as="font"/>
-    <link rel="preload" href="fonts/oswaldmedium.woff2" as="font"/>
-    <link rel="preload" href="fonts/oswaldregular.woff" as="font"/>
-    <link rel="preload" href="fonts/oswaldregular.woff2" as="font"/>
     <link rel="stylesheet" href="../../css/style.css"/>
     <title>В поисках Пульса Лета</title>
+    <style></style>
   </head>
     <body class="quest-counter-body">
       <!-- Preloader -->
@@ -38,25 +35,30 @@
       </script>
       <!-- Шапка сайта : Никнейм, Ссылка на карточку мероприятия, счётчик баллов -->
       <header class="quest-counter-header">
-        <p class="name">Feirly Moore</p>
-        <a href="/events.html"><img src="../../img/logo/SummerBeat-logo.jpg" width="60" height="60" alt="Карточка мероприятия" class="logo"></a>
+        <p class="user-name">Feirly Moore</p>
+        <a class="logo" href="/events.html"><img src="../../img/logo/SummerBeat-logo.jpg" width="60" height="60" alt="Карточка мероприятия"></a>
         <div class="score-counter">
           <img class="score-counter_logo" src="../../img/icons/sun-v3.svg" width="25" height="25" alt="Пульсик">
           <span class="score-counter_number">200</span>
         </div>
       </header>
+      <!-- <h1 class="quest-counter-title">В поисках Пульса !</h1> -->
       <main class="quest-counter-main">
         <div class="progress">
           <img class="progress_icon" src="../../img/icons/sun-v2.svg" width="80%" height="auto" alt="Степень прогресса">
-          <span class="progress_percent">47.8%</span>
           <div class="progress_relation">
-            <hr>
-            <span class="progress_relation--available">478</span> /
-            <span class="progress_relation--necessary">1000</span>
+            <span class="progress_percent">47.8%</span>
+            <!-- <hr> -->
+            <div class="progress_relation--wrapper">
+              <span class="progress_relation--available">478</span> /
+              <span class="progress_relation--necessary">1000</span>
+            </div>
           </div>
         </div>
       </main>
-      <footer>
+      <h1 class="quest-counter-title">В поисках Пульса !</h1>
+      <footer class="quest-counter-footer">
+
       </footer>
       <progress id="page_progress" class="page-progress" max="100" value="0" title="Прогресс прокрутки страницы"></progress>
       <!-- Подключаем jQuery -->

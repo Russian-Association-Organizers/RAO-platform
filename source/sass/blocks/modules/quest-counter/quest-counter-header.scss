@@ -1,14 +1,21 @@
 .quest-counter-body {
 	width: 100%;
-	display: inline-flex;
+	height: 100%;
+	display: flex;
 	flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.page {
+	height: 1vh !important;
 }
 
 .quest-counter-header{
 	@include container();
-	max-width: 1350px;
+	max-width: 1200px;
 	display: inline-flex;
 	flex-direction: row;
   flex-wrap: nowrap;
@@ -17,10 +24,19 @@
   box-sizing: border-box;
   padding: 0 1em 0 1em;
 
-  .name{
+  .user-name{
   	font-size: 2em;
   	color: orange;
   	font-family: $font-stack--Oswald-Regular;
+  }
+
+  .logo {
+  	&:hover {
+  		opacity: 0.8;
+  	}
+  	&:active {
+  		opacity: 0.6;
+  	}
   }
 
   .score-counter {
@@ -37,6 +53,5 @@
   .score-counter_number {
   	font-size: 1.8em;
   	color: $main-color;
-  	// margin-right: 0.2em;
   }
 }
