@@ -358,7 +358,8 @@ template {
   min-height: 100%;
   font-size: 10px;
   font-family: "Oswald Regular", "Arial", sans-serif;
-  line-height: 27px; }
+  line-height: 27px;
+  background-color: #ffffff; }
 
 .body {
   min-height: 100%;
