@@ -832,9 +832,6 @@ template {
   justify-content: space-between;
   user-select: none; }
 
-.page {
-  height: 1vh !important; }
-
 .quest-counter-header {
   min-width: 320px;
   width: 100%;
@@ -870,41 +867,48 @@ template {
     color: #ffffff; }
 
 .quest-counter-main {
-  max-width: 1200px;
-  box-sizing: content-box;
-  align-self: center; }
+  max-width: 1200px; }
   .quest-counter-main .progress {
     display: flex;
     justify-content: center;
     align-items: center; }
   .quest-counter-main .progress_icon {
     position: relative;
-    max-width: 500px; }
+    max-width: 500px;
+    animation-name: summerbeat;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+  .quest-counter-main .progress_relation {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: content-box;
+    margin: auto;
+    min-width: 100px;
+    font-size: 1.65em;
+    font-family: "Oswald Medium", "Arial", sans-serif;
+    transition: all 250ms ease-in-out; }
+    @media (min-width: 400px) {
+      .quest-counter-main .progress_relation {
+        font-size: 2.4em; } }
+    @media (min-width: 450px) {
+      .quest-counter-main .progress_relation {
+        font-size: 2.7em; } }
+    @media (min-width: 500px) {
+      .quest-counter-main .progress_relation {
+        font-size: 3.2em; } }
+    .quest-counter-main .progress_relation .progress_relation--wrapper {
+      margin-top: 7px;
+      padding-top: 5px;
+      border-top: 2px solid #222222; }
 
-.progress_relation {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  box-sizing: content-box;
-  min-width: 100px;
-  margin: auto;
-  font-size: 1.65em;
-  font-family: "Oswald Medium", "Arial", sans-serif;
-  transition: all 250ms ease-in-out; }
-  @media (min-width: 400px) {
-    .progress_relation {
-      font-size: 2.4em; } }
-  @media (min-width: 450px) {
-    .progress_relation {
-      font-size: 2.7em; } }
-  @media (min-width: 500px) {
-    .progress_relation {
-      font-size: 3.2em; } }
-  .progress_relation .progress_relation--wrapper {
-    border-top: 2px solid #222222;
-    margin-top: 7px;
-    padding-top: 5px; }
+@keyframes summerbeat {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 
 .quest-counter-footer {
   display: flex;

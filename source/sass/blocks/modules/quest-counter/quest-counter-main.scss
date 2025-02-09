@@ -10,8 +10,8 @@
 	.progress_icon {
 		position: relative;
 		max-width: 500px;
-		animation-name: rotation;
-    animation-duration: 5s;
+		animation-name: summerbeat;
+    animation-duration: 120s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 	}
@@ -40,9 +40,19 @@
     	font-size: 3.2em;
   	}
 
-	.progress_relation--wrapper {
-		margin-top: 7px;
-		padding-top: 5px;
-		border-top: 2px solid #222222;
+		.progress_relation--wrapper {
+			margin-top: 7px;
+			padding-top: 5px;
+			border-top: 2px solid #222222;
+		}
 	}
+}
+
+@keyframes summerbeat {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
 }

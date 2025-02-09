@@ -9,10 +9,6 @@
   user-select: none;
 }
 
-.page {
-	height: 1vh !important;
-}
-
 .quest-counter-header{
 	@include container();
 	max-width: 1200px;
